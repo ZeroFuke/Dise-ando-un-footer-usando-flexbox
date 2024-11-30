@@ -1,0 +1,75 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10%;
+    justify-content: center;
+    background-color: rgb(68, 66, 66);
+    color: rgb(198, 198, 198);
+    width: 100%;
+    height: auto;
+}
+
+.icon{
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.company{
+    padding-right: 600px;
+}
+
+.redes{
+    font-size: 20px;
+    color: white;
+}
+
+hr{
+    border: none;
+    height: 2px;
+    background-color: black;
+    width: 80%;
+    margin: 20px auto;
+}
+
+button{
+    border: none;
+    background-color: rgb(12, 111, 255);
+    color: white;
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    transition: 0.5s;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+input{
+    all: unset;
+    border: 1px solid rgb(198, 198, 198);
+    width: 310px;
+    height: 25px;
+}
+
+input[type="email"]::placeholder{
+    color: gray;
+    font-size: 12px;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
